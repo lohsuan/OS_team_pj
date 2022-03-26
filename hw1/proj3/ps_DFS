@@ -1,0 +1,650 @@
+UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+root           1       0       1  0    1 Mar20 ?        00:00:18 /sbin/init splash
+root           2       0       2  0    1 Mar20 ?        00:00:00 [kthreadd]
+root           3       2       3  0    1 Mar20 ?        00:00:00 [rcu_gp]
+root           4       2       4  0    1 Mar20 ?        00:00:00 [rcu_par_gp]
+root           6       2       6  0    1 Mar20 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2       9  0    1 Mar20 ?        00:00:00 [mm_percpu_wq]
+root          10       2      10  0    1 Mar20 ?        00:00:00 [rcu_tasks_rude_]
+root          11       2      11  0    1 Mar20 ?        00:00:00 [rcu_tasks_trace]
+root          12       2      12  0    1 Mar20 ?        00:00:25 [ksoftirqd/0]
+root          13       2      13  0    1 Mar20 ?        00:03:25 [rcu_sched]
+root          14       2      14  0    1 Mar20 ?        00:00:06 [migration/0]
+root          15       2      15  0    1 Mar20 ?        00:00:00 [idle_inject/0]
+root          16       2      16  0    1 Mar20 ?        00:00:00 [cpuhp/0]
+root          17       2      17  0    1 Mar20 ?        00:00:00 [cpuhp/1]
+root          18       2      18  0    1 Mar20 ?        00:00:00 [idle_inject/1]
+root          19       2      19  0    1 Mar20 ?        00:00:11 [migration/1]
+root          20       2      20  0    1 Mar20 ?        00:00:09 [ksoftirqd/1]
+root          22       2      22  0    1 Mar20 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          23       2      23  0    1 Mar20 ?        00:00:00 [kdevtmpfs]
+root          24       2      24  0    1 Mar20 ?        00:00:00 [netns]
+root          25       2      25  0    1 Mar20 ?        00:00:00 [inet_frag_wq]
+root          26       2      26  0    1 Mar20 ?        00:00:00 [kauditd]
+root          28       2      28  0    1 Mar20 ?        00:00:00 [khungtaskd]
+root          29       2      29  0    1 Mar20 ?        00:00:00 [oom_reaper]
+root          30       2      30  0    1 Mar20 ?        00:00:00 [writeback]
+root          31       2      31  0    1 Mar20 ?        00:00:55 [kcompactd0]
+root          32       2      32  0    1 Mar20 ?        00:00:00 [ksmd]
+root          33       2      33  0    1 Mar20 ?        00:00:00 [khugepaged]
+root          80       2      80  0    1 Mar20 ?        00:00:00 [kintegrityd]
+root          81       2      81  0    1 Mar20 ?        00:00:00 [kblockd]
+root          82       2      82  0    1 Mar20 ?        00:00:00 [blkcg_punt_bio]
+root          83       2      83  0    1 Mar20 ?        00:00:00 [tpm_dev_wq]
+root          84       2      84  0    1 Mar20 ?        00:00:00 [ata_sff]
+root          85       2      85  0    1 Mar20 ?        00:00:00 [md]
+root          86       2      86  0    1 Mar20 ?        00:00:00 [edac-poller]
+root          87       2      87  0    1 Mar20 ?        00:00:00 [devfreq_wq]
+root          88       2      88  0    1 Mar20 ?        00:00:00 [watchdogd]
+root          90       2      90  0    1 Mar20 ?        00:00:19 [kworker/1:1H-kblockd]
+root          92       2      92  0    1 Mar20 ?        00:00:36 [kswapd0]
+root          93       2      93  0    1 Mar20 ?        00:00:00 [ecryptfs-kthrea]
+root          95       2      95  0    1 Mar20 ?        00:00:00 [kthrotld]
+root          96       2      96  0    1 Mar20 ?        00:00:00 [irq/24-pciehp]
+root          97       2      97  0    1 Mar20 ?        00:00:00 [irq/25-pciehp]
+root          98       2      98  0    1 Mar20 ?        00:00:00 [irq/26-pciehp]
+root          99       2      99  0    1 Mar20 ?        00:00:00 [irq/27-pciehp]
+root         100       2     100  0    1 Mar20 ?        00:00:00 [irq/28-pciehp]
+root         101       2     101  0    1 Mar20 ?        00:00:00 [irq/29-pciehp]
+root         102       2     102  0    1 Mar20 ?        00:00:00 [irq/30-pciehp]
+root         103       2     103  0    1 Mar20 ?        00:00:00 [irq/31-pciehp]
+root         104       2     104  0    1 Mar20 ?        00:00:00 [irq/32-pciehp]
+root         105       2     105  0    1 Mar20 ?        00:00:00 [irq/33-pciehp]
+root         106       2     106  0    1 Mar20 ?        00:00:00 [irq/34-pciehp]
+root         107       2     107  0    1 Mar20 ?        00:00:00 [irq/35-pciehp]
+root         108       2     108  0    1 Mar20 ?        00:00:00 [irq/36-pciehp]
+root         109       2     109  0    1 Mar20 ?        00:00:00 [irq/37-pciehp]
+root         110       2     110  0    1 Mar20 ?        00:00:00 [irq/38-pciehp]
+root         111       2     111  0    1 Mar20 ?        00:00:00 [irq/39-pciehp]
+root         112       2     112  0    1 Mar20 ?        00:00:00 [irq/40-pciehp]
+root         113       2     113  0    1 Mar20 ?        00:00:00 [irq/41-pciehp]
+root         114       2     114  0    1 Mar20 ?        00:00:00 [irq/42-pciehp]
+root         115       2     115  0    1 Mar20 ?        00:00:00 [irq/43-pciehp]
+root         116       2     116  0    1 Mar20 ?        00:00:00 [irq/44-pciehp]
+root         117       2     117  0    1 Mar20 ?        00:00:00 [irq/45-pciehp]
+root         118       2     118  0    1 Mar20 ?        00:00:00 [irq/46-pciehp]
+root         119       2     119  0    1 Mar20 ?        00:00:00 [irq/47-pciehp]
+root         120       2     120  0    1 Mar20 ?        00:00:00 [irq/48-pciehp]
+root         121       2     121  0    1 Mar20 ?        00:00:00 [irq/49-pciehp]
+root         122       2     122  0    1 Mar20 ?        00:00:00 [irq/50-pciehp]
+root         123       2     123  0    1 Mar20 ?        00:00:00 [irq/51-pciehp]
+root         124       2     124  0    1 Mar20 ?        00:00:00 [irq/52-pciehp]
+root         125       2     125  0    1 Mar20 ?        00:00:00 [irq/53-pciehp]
+root         126       2     126  0    1 Mar20 ?        00:00:00 [irq/54-pciehp]
+root         127       2     127  0    1 Mar20 ?        00:00:00 [irq/55-pciehp]
+root         128       2     128  0    1 Mar20 ?        00:00:00 [acpi_thermal_pm]
+root         132       2     132  0    1 Mar20 ?        00:00:00 [scsi_eh_0]
+root         133       2     133  0    1 Mar20 ?        00:00:00 [scsi_tmf_0]
+root         134       2     134  0    1 Mar20 ?        00:00:00 [scsi_eh_1]
+root         135       2     135  0    1 Mar20 ?        00:00:00 [scsi_tmf_1]
+root         136       2     136  0    1 Mar20 ?        00:00:00 [vfio-irqfd-clea]
+root         137       2     137  0    1 Mar20 ?        00:00:00 [mld]
+root         138       2     138  0    1 Mar20 ?        00:00:00 [ipv6_addrconf]
+root         149       2     149  0    1 Mar20 ?        00:00:00 [kstrp]
+root         152       2     152  0    1 Mar20 ?        00:00:00 [zswap-shrink]
+root         153       2     153  0    1 Mar20 ?        00:00:00 [kworker/u257:0]
+root         158       2     158  0    1 Mar20 ?        00:00:00 [charger_manager]
+root         180       2     180  0    1 Mar20 ?        00:00:16 [kworker/0:1H-kblockd]
+root         203       2     203  0    1 Mar20 ?        00:00:00 [mpt_poll_0]
+root         204       2     204  0    1 Mar20 ?        00:00:00 [mpt/0]
+root         205       2     205  0    1 Mar20 ?        00:00:00 [scsi_eh_2]
+root         206       2     206  0    1 Mar20 ?        00:00:00 [scsi_tmf_2]
+root         207       2     207  0    1 Mar20 ?        00:00:00 [scsi_eh_3]
+root         208       2     208  0    1 Mar20 ?        00:00:00 [scsi_tmf_3]
+root         209       2     209  0    1 Mar20 ?        00:00:00 [scsi_eh_4]
+root         210       2     210  0    1 Mar20 ?        00:00:00 [scsi_tmf_4]
+root         211       2     211  0    1 Mar20 ?        00:00:00 [scsi_eh_5]
+root         212       2     212  0    1 Mar20 ?        00:00:00 [scsi_tmf_5]
+root         213       2     213  0    1 Mar20 ?        00:00:00 [scsi_eh_6]
+root         214       2     214  0    1 Mar20 ?        00:00:00 [scsi_tmf_6]
+root         215       2     215  0    1 Mar20 ?        00:00:00 [scsi_eh_7]
+root         216       2     216  0    1 Mar20 ?        00:00:00 [scsi_tmf_7]
+root         217       2     217  0    1 Mar20 ?        00:00:00 [scsi_eh_8]
+root         218       2     218  0    1 Mar20 ?        00:00:00 [scsi_tmf_8]
+root         219       2     219  0    1 Mar20 ?        00:00:00 [scsi_eh_9]
+root         220       2     220  0    1 Mar20 ?        00:00:00 [scsi_tmf_9]
+root         221       2     221  0    1 Mar20 ?        00:00:00 [scsi_eh_10]
+root         222       2     222  0    1 Mar20 ?        00:00:00 [scsi_tmf_10]
+root         223       2     223  0    1 Mar20 ?        00:00:00 [scsi_eh_11]
+root         224       2     224  0    1 Mar20 ?        00:00:00 [scsi_tmf_11]
+root         225       2     225  0    1 Mar20 ?        00:00:00 [scsi_eh_12]
+root         226       2     226  0    1 Mar20 ?        00:00:00 [scsi_tmf_12]
+root         227       2     227  0    1 Mar20 ?        00:00:00 [scsi_eh_13]
+root         228       2     228  0    1 Mar20 ?        00:00:00 [scsi_tmf_13]
+root         229       2     229  0    1 Mar20 ?        00:00:00 [scsi_eh_14]
+root         230       2     230  0    1 Mar20 ?        00:00:00 [scsi_tmf_14]
+root         231       2     231  0    1 Mar20 ?        00:00:00 [scsi_eh_15]
+root         232       2     232  0    1 Mar20 ?        00:00:00 [scsi_tmf_15]
+root         233       2     233  0    1 Mar20 ?        00:00:00 [scsi_eh_16]
+root         234       2     234  0    1 Mar20 ?        00:00:00 [scsi_tmf_16]
+root         235       2     235  0    1 Mar20 ?        00:00:00 [scsi_eh_17]
+root         236       2     236  0    1 Mar20 ?        00:00:00 [scsi_tmf_17]
+root         237       2     237  0    1 Mar20 ?        00:00:00 [scsi_eh_18]
+root         238       2     238  0    1 Mar20 ?        00:00:00 [scsi_tmf_18]
+root         239       2     239  0    1 Mar20 ?        00:00:00 [scsi_eh_19]
+root         240       2     240  0    1 Mar20 ?        00:00:00 [scsi_tmf_19]
+root         241       2     241  0    1 Mar20 ?        00:00:00 [scsi_eh_20]
+root         242       2     242  0    1 Mar20 ?        00:00:00 [scsi_tmf_20]
+root         243       2     243  0    1 Mar20 ?        00:00:00 [scsi_eh_21]
+root         244       2     244  0    1 Mar20 ?        00:00:00 [scsi_tmf_21]
+root         245       2     245  0    1 Mar20 ?        00:00:00 [scsi_eh_22]
+root         246       2     246  0    1 Mar20 ?        00:00:00 [scsi_tmf_22]
+root         247       2     247  0    1 Mar20 ?        00:00:00 [scsi_eh_23]
+root         248       2     248  0    1 Mar20 ?        00:00:00 [scsi_tmf_23]
+root         249       2     249  0    1 Mar20 ?        00:00:00 [scsi_eh_24]
+root         250       2     250  0    1 Mar20 ?        00:00:00 [scsi_tmf_24]
+root         251       2     251  0    1 Mar20 ?        00:00:00 [scsi_eh_25]
+root         252       2     252  0    1 Mar20 ?        00:00:00 [scsi_tmf_25]
+root         253       2     253  0    1 Mar20 ?        00:00:00 [scsi_eh_26]
+root         254       2     254  0    1 Mar20 ?        00:00:00 [scsi_tmf_26]
+root         255       2     255  0    1 Mar20 ?        00:00:00 [scsi_eh_27]
+root         256       2     256  0    1 Mar20 ?        00:00:00 [scsi_tmf_27]
+root         257       2     257  0    1 Mar20 ?        00:00:00 [scsi_eh_28]
+root         258       2     258  0    1 Mar20 ?        00:00:00 [scsi_tmf_28]
+root         260       2     260  0    1 Mar20 ?        00:00:00 [scsi_eh_29]
+root         261       2     261  0    1 Mar20 ?        00:00:00 [scsi_tmf_29]
+root         262       2     262  0    1 Mar20 ?        00:00:00 [scsi_eh_30]
+root         263       2     263  0    1 Mar20 ?        00:00:00 [scsi_tmf_30]
+root         264       2     264  0    1 Mar20 ?        00:00:00 [scsi_eh_31]
+root         265       2     265  0    1 Mar20 ?        00:00:00 [scsi_tmf_31]
+root         292       2     292  0    1 Mar20 ?        00:00:00 [scsi_eh_32]
+root         293       2     293  0    1 Mar20 ?        00:00:00 [scsi_tmf_32]
+root         298       2     298  0    1 Mar20 ?        00:00:00 [kdmflush]
+root         299       2     299  0    1 Mar20 ?        00:00:00 [kdmflush]
+root         338       2     338  0    1 Mar20 ?        00:00:11 [jbd2/dm-0-8]
+root         339       2     339  0    1 Mar20 ?        00:00:00 [ext4-rsv-conver]
+root         383       1     383  0    1 Mar20 ?        00:00:09 /lib/systemd/systemd-journald
+root         405       1     405  0    1 Mar20 ?        00:00:01 /lib/systemd/systemd-udevd
+root         413       2     413  0    1 Mar20 ?        00:00:00 [loop0]
+root         415       2     415  0    1 Mar20 ?        00:00:03 [loop1]
+root         417       2     417  0    1 Mar20 ?        00:00:00 [loop2]
+root         418       2     418  0    1 Mar20 ?        00:00:00 [loop3]
+root         425       2     425  0    1 Mar20 ?        00:00:00 [loop4]
+root         435       2     435  0    1 Mar20 ?        00:00:00 [loop5]
+root         442       2     442  0    1 Mar20 ?        00:00:00 [loop6]
+root         444       2     444  0    1 Mar20 ?        00:00:00 [loop7]
+root         450       2     450  0    1 Mar20 ?        00:00:00 [loop8]
+root         453       2     453  0    1 Mar20 ?        00:00:00 [loop9]
+root         466       2     466  0    1 Mar20 ?        00:00:00 [ttm_swap]
+root         467       2     467  0    1 Mar20 ?        00:00:21 [irq/16-vmwgfx]
+root         468       2     468  0    1 Mar20 ?        00:00:00 [card0-crtc0]
+root         469       2     469  0    1 Mar20 ?        00:00:00 [card0-crtc1]
+root         470       2     470  0    1 Mar20 ?        00:00:00 [card0-crtc2]
+root         471       2     471  0    1 Mar20 ?        00:00:00 [card0-crtc3]
+root         472       2     472  0    1 Mar20 ?        00:00:00 [card0-crtc4]
+root         473       2     473  0    1 Mar20 ?        00:00:00 [card0-crtc5]
+root         474       2     474  0    1 Mar20 ?        00:00:00 [card0-crtc6]
+root         475       2     475  0    1 Mar20 ?        00:00:00 [card0-crtc7]
+root         491       2     491  0    1 Mar20 ?        00:00:00 [cryptd]
+systemd+     723       1     723  0    1 Mar20 ?        00:00:12 /lib/systemd/systemd-resolved
+systemd+     724       1     724  0    2 Mar20 ?        00:00:01 /lib/systemd/systemd-timesyncd
+systemd+     724       1     729  0    2 Mar20 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         741       1     741  0    1 Mar20 ?        00:00:00 /usr/bin/VGAuthService
+root         742       1     742  0    4 Mar20 ?        00:37:40 /usr/bin/vmtoolsd
+root         742       1     766  0    4 Mar20 ?        00:00:50 /usr/bin/vmtoolsd
+root         742       1     767  0    4 Mar20 ?        00:00:00 /usr/bin/vmtoolsd
+root         742       1     909  0    4 Mar20 ?        00:00:00 /usr/bin/vmtoolsd
+root         771       1     771  0    3 Mar20 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         771       1     775  0    3 Mar20 ?        00:00:15 /usr/lib/accountsservice/accounts-daemon
+root         771       1     845  0    3 Mar20 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         772       1     772  0    1 Mar20 ?        00:00:01 /usr/sbin/acpid
+avahi        776       1     776  0    1 Mar20 ?        00:00:12 avahi-daemon: running [ubuntu2004.local]
+root         778       1     778  0    1 Mar20 ?        00:00:01 /usr/sbin/cron -f
+message+     782       1     782  0    1 Mar20 ?        00:00:11 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         783       1     783  0    3 Mar20 ?        00:02:13 /usr/sbin/NetworkManager --no-daemon
+root         783       1     858  0    3 Mar20 ?        00:00:15 /usr/sbin/NetworkManager --no-daemon
+root         783       1     860  0    3 Mar20 ?        00:00:02 /usr/sbin/NetworkManager --no-daemon
+root         790       1     790  0    2 Mar20 ?        00:00:31 /usr/sbin/irqbalance --foreground
+root         790       1     813  0    2 Mar20 ?        00:00:00 /usr/sbin/irqbalance --foreground
+root         792       1     792  0    1 Mar20 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         793       1     793  0    3 Mar20 ?        00:00:01 /usr/lib/policykit-1/polkitd --no-debug
+root         793       1     801  0    3 Mar20 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root         793       1     846  0    3 Mar20 ?        00:00:01 /usr/lib/policykit-1/polkitd --no-debug
+syslog       796       1     796  0    4 Mar20 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+syslog       796       1     827  0    4 Mar20 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+syslog       796       1     828  0    4 Mar20 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+syslog       796       1     829  0    4 Mar20 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         806       1     806  0   12 Mar20 ?        00:00:01 /usr/lib/snapd/snapd
+root         806       1    1035  0   12 Mar20 ?        00:00:17 /usr/lib/snapd/snapd
+root         806       1    1036  0   12 Mar20 ?        00:00:05 /usr/lib/snapd/snapd
+root         806       1    1037  0   12 Mar20 ?        00:00:00 /usr/lib/snapd/snapd
+root         806       1    1042  0   12 Mar20 ?        00:00:00 /usr/lib/snapd/snapd
+root         806       1    1044  0   12 Mar20 ?        00:00:00 /usr/lib/snapd/snapd
+root         806       1    1131  0   12 Mar20 ?        00:00:06 /usr/lib/snapd/snapd
+root         806       1    1142  0   12 Mar20 ?        00:00:07 /usr/lib/snapd/snapd
+root         806       1    1146  0   12 Mar20 ?        00:00:05 /usr/lib/snapd/snapd
+root         806       1    1165  0   12 Mar20 ?        00:00:00 /usr/lib/snapd/snapd
+root         806       1    1225  0   12 Mar20 ?        00:00:04 /usr/lib/snapd/snapd
+root         806       1    2177  0   12 Mar20 ?        00:00:03 /usr/lib/snapd/snapd
+root         807       1     807  0    3 Mar20 ?        00:00:00 /usr/libexec/switcheroo-control
+root         807       1     823  0    3 Mar20 ?        00:00:00 /usr/libexec/switcheroo-control
+root         807       1     844  0    3 Mar20 ?        00:00:00 /usr/libexec/switcheroo-control
+root         812       1     812  0    1 Mar20 ?        00:00:01 /lib/systemd/systemd-logind
+root         814       1     814  0    5 Mar20 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         814       1     832  0    5 Mar20 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         814       1     847  0    5 Mar20 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         814       1     874  0    5 Mar20 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         814       1     904  0    5 Mar20 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         815       1     815  0    1 Mar20 ?        00:00:05 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        825     776     825  0    1 Mar20 ?        00:00:00 avahi-daemon: chroot helper
+root         856       1     856  0    3 Mar20 ?        00:00:00 /usr/sbin/ModemManager
+root         856       1     881  0    3 Mar20 ?        00:00:00 /usr/sbin/ModemManager
+root         856       1     887  0    3 Mar20 ?        00:00:00 /usr/sbin/ModemManager
+root         873       1     873  0    2 Mar20 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         873       1     923  0    2 Mar20 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         882       1     882  0    1 Mar20 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         889       1     889  0    3 Mar20 ?        00:00:00 /usr/sbin/gdm3
+root         889       1     892  0    3 Mar20 ?        00:00:00 /usr/sbin/gdm3
+root         889       1     893  0    3 Mar20 ?        00:00:00 /usr/sbin/gdm3
+rtkit        957       1     957  0    3 Mar20 ?        00:00:00 /usr/libexec/rtkit-daemon
+rtkit        957       1     973  0    3 Mar20 ?        00:00:13 /usr/libexec/rtkit-daemon
+rtkit        957       1     974  0    3 Mar20 ?        00:00:05 /usr/libexec/rtkit-daemon
+whoopsie    1056       1    1056  0    3 Mar20 ?        00:00:00 /usr/bin/whoopsie -f
+whoopsie    1056       1    1091  0    3 Mar20 ?        00:00:00 /usr/bin/whoopsie -f
+whoopsie    1056       1    1101  0    3 Mar20 ?        00:00:00 /usr/bin/whoopsie -f
+kernoops    1060       1    1060  0    1 Mar20 ?        00:00:20 /usr/sbin/kerneloops --test
+kernoops    1067       1    1067  0    1 Mar20 ?        00:00:19 /usr/sbin/kerneloops
+root        1136       1    1136  0    3 Mar20 ?        00:00:00 /usr/lib/upower/upowerd
+root        1136       1    1143  0    3 Mar20 ?        00:00:00 /usr/lib/upower/upowerd
+root        1136       1    1144  0    3 Mar20 ?        00:00:00 /usr/lib/upower/upowerd
+colord      1397       1    1397  0    3 Mar20 ?        00:00:00 /usr/libexec/colord
+colord      1397       1    1398  0    3 Mar20 ?        00:00:00 /usr/libexec/colord
+colord      1397       1    1400  0    3 Mar20 ?        00:00:00 /usr/libexec/colord
+root        1443     889    1443  0    3 Mar20 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+root        1443     889    1444  0    3 Mar20 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+root        1443     889    1445  0    3 Mar20 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+ubuntu      1455       1    1455  0    1 Mar20 ?        00:00:02 /lib/systemd/systemd --user
+ubuntu      1456    1455    1456  0    1 Mar20 ?        00:00:00 (sd-pam)
+ubuntu      1461    1455    1461  0    4 Mar20 ?        00:02:27 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ubuntu      1461    1455    1541  0    4 Mar20 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ubuntu      1461    1455    1543  1    4 Mar20 ?        01:44:15 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ubuntu      1461    1455    1544  0    4 Mar20 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ubuntu      1463    1455    1463  0    5 Mar20 ?        00:00:01 /usr/libexec/tracker-miner-fs
+ubuntu      1463    1455    1464  0    5 Mar20 ?        00:00:00 /usr/libexec/tracker-miner-fs
+ubuntu      1463    1455    1473  0    5 Mar20 ?        00:00:00 /usr/libexec/tracker-miner-fs
+ubuntu      1463    1455    1489  0    5 Mar20 ?        00:00:00 /usr/libexec/tracker-miner-fs
+ubuntu      1463    1455    1542  0    5 Mar20 ?        00:00:00 /usr/libexec/tracker-miner-fs
+ubuntu      1466    1455    1466  0    1 Mar20 ?        00:00:05 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ubuntu      1469       1    1469  0    4 Mar20 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ubuntu      1469       1    1470  0    4 Mar20 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ubuntu      1469       1    1472  0    4 Mar20 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ubuntu      1469       1    1670  0    4 Mar20 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ubuntu      1474    1455    1474  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfsd
+ubuntu      1474    1455    1476  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfsd
+ubuntu      1474    1455    1477  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfsd
+ubuntu      1480    1455    1480  0    6 Mar20 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ubuntu      1480    1455    1497  0    6 Mar20 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ubuntu      1480    1455    1498  0    6 Mar20 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ubuntu      1480    1455    1499  0    6 Mar20 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ubuntu      1480    1455    1501  0    6 Mar20 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ubuntu      1480    1455    1502  0    6 Mar20 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ubuntu      1494    1455    1494  0    4 Mar20 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ubuntu      1494    1455    1496  0    4 Mar20 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ubuntu      1494    1455    1500  0    4 Mar20 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ubuntu      1494    1455    1503  0    4 Mar20 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ubuntu      1506    1455    1506  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+ubuntu      1506    1455    1507  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+ubuntu      1506    1455    1509  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+ubuntu      1510    1455    1510  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+ubuntu      1510    1455    1511  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+ubuntu      1510    1455    1512  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+ubuntu      1514    1455    1514  0    4 Mar20 ?        00:00:00 /usr/libexec/goa-daemon
+ubuntu      1514    1455    1518  0    4 Mar20 ?        00:00:00 /usr/libexec/goa-daemon
+ubuntu      1514    1455    1520  0    4 Mar20 ?        00:00:00 /usr/libexec/goa-daemon
+ubuntu      1514    1455    1522  0    4 Mar20 ?        00:00:00 /usr/libexec/goa-daemon
+ubuntu      1517    1443    1517  0    3 Mar20 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ubuntu      1517    1443    1521  0    3 Mar20 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ubuntu      1517    1443    1561  0    3 Mar20 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ubuntu      1524    1517    1524  0    2 Mar20 tty2     00:13:14 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ubuntu      1524    1517    1560  0    2 Mar20 tty2     00:00:23 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ubuntu      1526    1455    1526  0    3 Mar20 ?        00:00:00 /usr/libexec/goa-identity-service
+ubuntu      1526    1455    1529  0    3 Mar20 ?        00:00:00 /usr/libexec/goa-identity-service
+ubuntu      1526    1455    1531  0    3 Mar20 ?        00:00:00 /usr/libexec/goa-identity-service
+ubuntu      1528    1455    1528  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ubuntu      1528    1455    1532  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ubuntu      1528    1455    1534  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ubuntu      1536    1455    1536  0    4 Mar20 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+ubuntu      1536    1455    1537  0    4 Mar20 ?        00:00:51 /usr/libexec/gvfs-afc-volume-monitor
+ubuntu      1536    1455    1538  0    4 Mar20 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+ubuntu      1536    1455    1540  0    4 Mar20 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+ubuntu      1563    1517    1563  0    3 Mar20 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+ubuntu      1563    1517    1648  0    3 Mar20 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+ubuntu      1563    1517    1649  0    3 Mar20 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+ubuntu      1632    1563    1632  0    1 Mar20 ?        00:00:05 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ubuntu      1655    1455    1655  0    4 Mar20 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+ubuntu      1655    1455    1656  0    4 Mar20 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+ubuntu      1655    1455    1657  0    4 Mar20 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+ubuntu      1655    1455    1658  0    4 Mar20 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+ubuntu      1660    1655    1660  0    1 Mar20 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+ubuntu      1664    1455    1664  0    2 Mar20 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+ubuntu      1664    1455    1669  0    2 Mar20 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+ubuntu      1671    1455    1671  0    4 Mar20 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ubuntu      1671    1455    1672  0    4 Mar20 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ubuntu      1671    1455    1673  0    4 Mar20 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ubuntu      1671    1455    1675  0    4 Mar20 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ubuntu      1687    1455    1687  0    6 Mar20 ?        00:08:03 /usr/bin/gnome-shell
+ubuntu      1687    1455    1697  0    6 Mar20 ?        00:00:10 /usr/bin/gnome-shell
+ubuntu      1687    1455    1700  0    6 Mar20 ?        00:00:04 /usr/bin/gnome-shell
+ubuntu      1687    1455    1701  0    6 Mar20 ?        00:00:00 /usr/bin/gnome-shell
+ubuntu      1687    1455    1703  0    6 Mar20 ?        00:00:06 /usr/bin/gnome-shell
+ubuntu      1687    1455    1704  0    6 Mar20 ?        00:00:06 /usr/bin/gnome-shell
+ubuntu      1705    1687    1705  0    3 Mar20 ?        00:00:00 ibus-daemon --panel disable --xim
+ubuntu      1705    1687    1706  0    3 Mar20 ?        00:00:00 ibus-daemon --panel disable --xim
+ubuntu      1705    1687    1707  0    3 Mar20 ?        00:00:00 ibus-daemon --panel disable --xim
+ubuntu      1709    1705    1709  0    4 Mar20 ?        00:00:00 /usr/libexec/ibus-dconf
+ubuntu      1709    1705    1712  0    4 Mar20 ?        00:00:00 /usr/libexec/ibus-dconf
+ubuntu      1709    1705    1716  0    4 Mar20 ?        00:00:00 /usr/libexec/ibus-dconf
+ubuntu      1709    1705    1721  0    4 Mar20 ?        00:00:00 /usr/libexec/ibus-dconf
+ubuntu      1710    1705    1710  0    4 Mar20 ?        00:00:01 /usr/libexec/ibus-extension-gtk3
+ubuntu      1710    1705    1723  0    4 Mar20 ?        00:00:00 /usr/libexec/ibus-extension-gtk3
+ubuntu      1710    1705    1724  0    4 Mar20 ?        00:00:00 /usr/libexec/ibus-extension-gtk3
+ubuntu      1710    1705    1738  0    4 Mar20 ?        00:00:00 /usr/libexec/ibus-extension-gtk3
+ubuntu      1713    1455    1713  0    3 Mar20 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+ubuntu      1713    1455    1725  0    3 Mar20 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+ubuntu      1713    1455    1726  0    3 Mar20 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+ubuntu      1715    1455    1715  0    3 Mar20 ?        00:00:00 /usr/libexec/ibus-portal
+ubuntu      1715    1455    1717  0    3 Mar20 ?        00:00:00 /usr/libexec/ibus-portal
+ubuntu      1715    1455    1718  0    3 Mar20 ?        00:00:00 /usr/libexec/ibus-portal
+ubuntu      1728    1455    1728  0    3 Mar20 ?        00:00:02 /usr/libexec/at-spi2-registryd --use-gnome-session
+ubuntu      1728    1455    1729  0    3 Mar20 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ubuntu      1728    1455    1730  0    3 Mar20 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ubuntu      1731    1455    1731  0    3 Mar20 ?        00:00:00 /usr/libexec/xdg-permission-store
+ubuntu      1731    1455    1732  0    3 Mar20 ?        00:00:00 /usr/libexec/xdg-permission-store
+ubuntu      1731    1455    1734  0    3 Mar20 ?        00:00:00 /usr/libexec/xdg-permission-store
+ubuntu      1736    1455    1736  0    6 Mar20 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+ubuntu      1736    1455    1737  0    6 Mar20 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+ubuntu      1736    1455    1740  0    6 Mar20 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+ubuntu      1736    1455    1741  0    6 Mar20 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+ubuntu      1736    1455    1742  0    6 Mar20 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+ubuntu      1736    1455    1752  0    6 Mar20 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+ubuntu      1743    1455    1743  0    4 Mar20 ?        00:00:00 /usr/libexec/evolution-source-registry
+ubuntu      1743    1455    1745  0    4 Mar20 ?        00:00:00 /usr/libexec/evolution-source-registry
+ubuntu      1743    1455    1746  0    4 Mar20 ?        00:00:00 /usr/libexec/evolution-source-registry
+ubuntu      1743    1455    1748  0    4 Mar20 ?        00:00:00 /usr/libexec/evolution-source-registry
+ubuntu      1753    1455    1753  0    9 Mar20 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ubuntu      1753    1455    1754  0    9 Mar20 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ubuntu      1753    1455    1755  0    9 Mar20 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ubuntu      1753    1455    1757  0    9 Mar20 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ubuntu      1753    1455    1758  0    9 Mar20 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ubuntu      1753    1455    1759  0    9 Mar20 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ubuntu      1753    1455    1761  0    9 Mar20 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ubuntu      1753    1455    1764  0    9 Mar20 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ubuntu      1753    1455    1769  0    9 Mar20 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ubuntu      1763    1455    1763  0    3 Mar20 ?        00:00:00 /usr/libexec/dconf-service
+ubuntu      1763    1455    1766  0    3 Mar20 ?        00:00:00 /usr/libexec/dconf-service
+ubuntu      1763    1455    1767  0    3 Mar20 ?        00:00:00 /usr/libexec/dconf-service
+ubuntu      1765    1455    1765  0    6 Mar20 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+ubuntu      1765    1455    1770  0    6 Mar20 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+ubuntu      1765    1455    1774  0    6 Mar20 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+ubuntu      1765    1455    1776  0    6 Mar20 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+ubuntu      1765    1455    1777  0    6 Mar20 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+ubuntu      1765    1455    1779  0    6 Mar20 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+ubuntu      1771    1455    1771  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfsd-metadata
+ubuntu      1771    1455    1772  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfsd-metadata
+ubuntu      1771    1455    1773  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfsd-metadata
+ubuntu      1786    1455    1786  0    5 Mar20 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ubuntu      1786    1455    1788  0    5 Mar20 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ubuntu      1786    1455    1789  0    5 Mar20 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ubuntu      1786    1455    1796  0    5 Mar20 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ubuntu      1786    1455    1797  0    5 Mar20 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ubuntu      1792    1474    1792  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+ubuntu      1792    1474    1793  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+ubuntu      1792    1474    1794  0    3 Mar20 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+ubuntu      1803    1455    1803  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+ubuntu      1803    1455    1806  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+ubuntu      1803    1455    1808  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+ubuntu      1803    1455    1816  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+ubuntu      1805    1455    1805  0    4 Mar20 ?        00:00:04 /usr/libexec/gsd-color
+ubuntu      1805    1455    1829  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-color
+ubuntu      1805    1455    1849  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-color
+ubuntu      1805    1455    1852  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-color
+ubuntu      1811    1455    1811  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-datetime
+ubuntu      1811    1455    1824  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-datetime
+ubuntu      1811    1455    1827  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-datetime
+ubuntu      1811    1455    1834  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-datetime
+ubuntu      1812    1455    1812  0    4 Mar20 ?        00:00:15 /usr/libexec/gsd-housekeeping
+ubuntu      1812    1455    1813  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-housekeeping
+ubuntu      1812    1455    1818  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-housekeeping
+ubuntu      1812    1455    1823  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-housekeeping
+ubuntu      1815    1455    1815  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-keyboard
+ubuntu      1815    1455    1837  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-keyboard
+ubuntu      1815    1455    1864  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-keyboard
+ubuntu      1815    1455    1867  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-keyboard
+ubuntu      1819    1455    1819  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-media-keys
+ubuntu      1819    1455    1838  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-media-keys
+ubuntu      1819    1455    1839  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-media-keys
+ubuntu      1819    1455    1906  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-media-keys
+ubuntu      1820    1455    1820  0    4 Mar20 ?        00:00:01 /usr/libexec/gsd-power
+ubuntu      1820    1455    1855  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-power
+ubuntu      1820    1455    1865  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-power
+ubuntu      1820    1455    1925  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-power
+ubuntu      1821    1455    1821  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-print-notifications
+ubuntu      1821    1455    1831  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-print-notifications
+ubuntu      1821    1455    1835  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-print-notifications
+ubuntu      1826    1455    1826  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-rfkill
+ubuntu      1826    1455    1830  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-rfkill
+ubuntu      1826    1455    1833  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-rfkill
+ubuntu      1828    1455    1828  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+ubuntu      1828    1455    1840  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+ubuntu      1828    1455    1844  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+ubuntu      1832    1455    1832  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-sharing
+ubuntu      1832    1455    1847  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-sharing
+ubuntu      1832    1455    1863  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-sharing
+ubuntu      1832    1455    1868  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-sharing
+ubuntu      1846    1671    1846  0    6 Mar20 ?        00:00:02 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ubuntu      1846    1671    1945  0    6 Mar20 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ubuntu      1846    1671    1946  0    6 Mar20 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ubuntu      1846    1671    1947  0    6 Mar20 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ubuntu      1846    1671    1948  0    6 Mar20 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ubuntu      1846    1671    1993  0    6 Mar20 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ubuntu      1848    1455    1848  0    5 Mar20 ?        00:00:00 /usr/libexec/gsd-smartcard
+ubuntu      1848    1455    1851  0    5 Mar20 ?        00:00:00 /usr/libexec/gsd-smartcard
+ubuntu      1848    1455    1860  0    5 Mar20 ?        00:00:00 /usr/libexec/gsd-smartcard
+ubuntu      1848    1455    1901  0    5 Mar20 ?        00:00:00 /usr/libexec/gsd-smartcard
+ubuntu      1848    1455    1917  0    5 Mar20 ?        00:00:00 /usr/libexec/gsd-smartcard
+ubuntu      1850    1671    1850  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+ubuntu      1850    1671    1869  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+ubuntu      1850    1671    1891  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+ubuntu      1853    1455    1853  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-sound
+ubuntu      1853    1455    1857  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-sound
+ubuntu      1853    1455    1862  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-sound
+ubuntu      1853    1455    1904  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-sound
+ubuntu      1854    1455    1854  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-usb-protection
+ubuntu      1854    1455    1861  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-usb-protection
+ubuntu      1854    1455    1875  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-usb-protection
+ubuntu      1854    1455    1921  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-usb-protection
+ubuntu      1859    1455    1859  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-wacom
+ubuntu      1859    1455    1876  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-wacom
+ubuntu      1859    1455    1879  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-wacom
+ubuntu      1871    1455    1871  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-wwan
+ubuntu      1871    1455    1874  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-wwan
+ubuntu      1871    1455    1877  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-wwan
+ubuntu      1871    1455    1923  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-wwan
+ubuntu      1872    1455    1872  0    4 Mar20 ?        00:00:01 /usr/libexec/gsd-xsettings
+ubuntu      1872    1455    1889  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-xsettings
+ubuntu      1872    1455    1892  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-xsettings
+ubuntu      1872    1455    1926  0    4 Mar20 ?        00:00:00 /usr/libexec/gsd-xsettings
+ubuntu      1881    1455    1881  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-printer
+ubuntu      1881    1455    1888  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-printer
+ubuntu      1881    1455    1890  0    3 Mar20 ?        00:00:00 /usr/libexec/gsd-printer
+ubuntu      1927    1705    1927  0    3 Mar20 ?        00:00:00 /usr/libexec/ibus-engine-simple
+ubuntu      1927    1705    1933  0    3 Mar20 ?        00:00:00 /usr/libexec/ibus-engine-simple
+ubuntu      1927    1705    1934  0    3 Mar20 ?        00:00:00 /usr/libexec/ibus-engine-simple
+ubuntu      1943    1455    1943  0    5 Mar20 ?        00:00:28 /snap/snap-store/558/usr/bin/snap-store --gapplication-service
+ubuntu      1943    1455    2069  0    5 Mar20 ?        00:00:18 /snap/snap-store/558/usr/bin/snap-store --gapplication-service
+ubuntu      1943    1455    2070  0    5 Mar20 ?        00:00:00 /snap/snap-store/558/usr/bin/snap-store --gapplication-service
+ubuntu      1943    1455    2071  0    5 Mar20 ?        00:00:00 /snap/snap-store/558/usr/bin/snap-store --gapplication-service
+ubuntu      1943    1455    2089  0    5 Mar20 ?        00:00:00 /snap/snap-store/558/usr/bin/snap-store --gapplication-service
+ubuntu      1976    1455    1976  0    6 Mar20 ?        00:00:00 /usr/libexec/xdg-document-portal
+ubuntu      1976    1455    1977  0    6 Mar20 ?        00:00:00 /usr/libexec/xdg-document-portal
+ubuntu      1976    1455    1978  0    6 Mar20 ?        00:00:00 /usr/libexec/xdg-document-portal
+ubuntu      1976    1455    1982  0    6 Mar20 ?        00:00:00 /usr/libexec/xdg-document-portal
+ubuntu      1976    1455    1983  0    6 Mar20 ?        00:00:00 /usr/libexec/xdg-document-portal
+ubuntu      1976    1455    1984  0    6 Mar20 ?        00:00:00 /usr/libexec/xdg-document-portal
+ubuntu      2075    1455    2075  0    5 Mar20 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+ubuntu      2075    1455    2076  0    5 Mar20 ?        00:00:11 /usr/libexec/xdg-desktop-portal
+ubuntu      2075    1455    2077  0    5 Mar20 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+ubuntu      2075    1455    2086  0    5 Mar20 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+ubuntu      2075    1455    2087  0    5 Mar20 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+ubuntu      2079    1455    2079  0    4 Mar20 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+ubuntu      2079    1455    2080  0    4 Mar20 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+ubuntu      2079    1455    2081  0    4 Mar20 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+ubuntu      2079    1455    2085  0    4 Mar20 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+ubuntu      2179    1671    2179  0    5 Mar20 ?        00:00:02 update-notifier
+ubuntu      2179    1671    2182  0    5 Mar20 ?        00:00:14 update-notifier
+ubuntu      2179    1671    2183  0    5 Mar20 ?        00:00:00 update-notifier
+ubuntu      2179    1671    2186  0    5 Mar20 ?        00:00:00 update-notifier
+ubuntu      2179    1671    2227  0    5 Mar20 ?        00:00:00 update-notifier
+ubuntu      3499    1455    3499  0   34 Mar20 ?        00:01:18 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3500  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3503  0   34 Mar20 ?        00:00:04 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3506  0   34 Mar20 ?        00:00:15 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3507  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3508  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3509  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3510  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3511  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3512  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3513  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3514  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3515  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3516  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3519  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3520  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3521  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3522  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3523  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3525  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3526  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3528  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3529  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3530  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3531  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3539  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3540  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3555  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3557  0   34 Mar20 ?        00:00:02 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3558  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    3580  0   34 Mar20 ?        00:00:57 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455    4675  0   34 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455   76921  0   34 08:35 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3499    1455   77215  0   34 08:53 ?        00:00:00 /snap/code/91/usr/share/code/code --no-sandbox --force-user-env --unity-launch
+ubuntu      3501    3499    3501  0    1 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+ubuntu      3502    3499    3502  0    1 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=zygote --no-sandbox
+ubuntu      3538    3501    3538  0    8 Mar20 ?        00:01:48 /snap/code/91/usr/share/code/code --type=gpu-process --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=swiftshader-webgl --shared-files
+ubuntu      3538    3501    3543  0    8 Mar20 ?        00:04:48 /snap/code/91/usr/share/code/code --type=gpu-process --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=swiftshader-webgl --shared-files
+ubuntu      3538    3501    3545  0    8 Mar20 ?        00:14:38 /snap/code/91/usr/share/code/code --type=gpu-process --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=swiftshader-webgl --shared-files
+ubuntu      3538    3501    3546  0    8 Mar20 ?        00:01:19 /snap/code/91/usr/share/code/code --type=gpu-process --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=swiftshader-webgl --shared-files
+ubuntu      3538    3501    3547  0    8 Mar20 ?        00:40:53 /snap/code/91/usr/share/code/code --type=gpu-process --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=swiftshader-webgl --shared-files
+ubuntu      3538    3501   39361  0    8 Mar23 ?        00:00:45 /snap/code/91/usr/share/code/code --type=gpu-process --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=swiftshader-webgl --shared-files
+ubuntu      3538    3501   39362  0    8 Mar23 ?        00:00:29 /snap/code/91/usr/share/code/code --type=gpu-process --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=swiftshader-webgl --shared-files
+ubuntu      3538    3501   67998  0    8 01:16 ?        00:00:00 /snap/code/91/usr/share/code/code --type=gpu-process --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=swiftshader-webgl --shared-files
+ubuntu      3541    3499    3541  0    5 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100
+ubuntu      3541    3499    3549  0    5 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100
+ubuntu      3541    3499    3551  0    5 Mar20 ?        00:00:05 /snap/code/91/usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100
+ubuntu      3541    3499    3554  0    5 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100
+ubuntu      3541    3499   54845  0    5 Mar23 ?        00:00:01 /snap/code/91/usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100
+ubuntu      3559    3499    3559  1   16 Mar20 ?        01:17:12 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499    3570  0   16 Mar20 ?        00:05:30 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499    3572  0   16 Mar20 ?        00:11:52 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499    3577  0   16 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499    3581  0   16 Mar20 ?        00:58:18 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499    3582  0   16 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499    3583  0   16 Mar20 ?        00:04:18 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499    3584  0   16 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499    3585  0   16 Mar20 ?        00:00:01 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499    3614  0   16 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499    3638  0   16 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499    4664  0   16 Mar20 ?        00:00:14 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499   77204  0   16 08:47 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499   77260  0   16 08:53 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499   78187  0   16 08:58 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3559    3499   78354  0   16 08:59 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:11cd6693-7b7f-4d14-960a-488f726f7041
+ubuntu      3588    3499    3588  0   19 Mar20 ?        00:01:32 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3590  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3592  0   19 Mar20 ?        00:00:02 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3594  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3596  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3597  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3598  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3599  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3606  0   19 Mar20 ?        00:00:13 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3617  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3618  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3619  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3620  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3636  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3637  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499    3639  0   19 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499   78111  0   19 08:58 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499   78382  0   19 08:59 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3588    3499   78383  0   19 08:59 ?        00:00:00 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=17165501345390583652,17878833489546877055,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel --global-crash-keys=17fa6cd2-bd81-4ff5-8237-d2901356daad,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/ubuntu/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:eb1913f1-b100-4f71-b18a-997fcae13211 --vscode-window-kind=shared-process
+ubuntu      3589    3499    3589  0   13 Mar20 ?        00:01:47 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3589    3499    3600  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3589    3499    3601  0   13 Mar20 ?        00:00:01 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3589    3499    3602  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3589    3499    3603  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3589    3499    3604  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3589    3499    3605  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3589    3499    3607  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3589    3499    3608  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3589    3499    3609  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3589    3499    3610  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3589    3499    3611  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3589    3499    3633  0   13 Mar20 ?        00:00:49 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ubuntu      3616    3588    3616  0   13 Mar20 ?        00:11:52 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3616    3588    3621  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3616    3588    3622  0   13 Mar20 ?        00:00:01 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3616    3588    3623  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3616    3588    3624  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3616    3588    3625  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3616    3588    3626  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3616    3588    3627  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3616    3588    3628  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3616    3588    3629  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3616    3588    3630  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3616    3588    3631  0   13 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3616    3588   39364  0   13 Mar23 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+ubuntu      3640    3588    3640  0   14 Mar20 ?        00:00:17 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3646  0   14 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3647  0   14 Mar20 ?        00:00:01 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3648  0   14 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3650  0   14 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3651  0   14 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3652  0   14 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3653  0   14 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3671  0   14 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3672  0   14 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3673  0   14 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3674  0   14 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3676  0   14 Mar20 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ubuntu      3640    3588    3677  0   14 Mar20 ?        00:01:42 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+root       12577       2   12577  0    1 Mar20 ?        00:00:00 [xfsalloc]
+root       12578       2   12578  0    1 Mar20 ?        00:00:00 [xfs_mru_cache]
+root       12581       2   12581  0    1 Mar20 ?        00:00:00 [jfsIO]
+root       12582       2   12582  0    1 Mar20 ?        00:00:00 [jfsCommit]
+root       12583       2   12583  0    1 Mar20 ?        00:00:00 [jfsCommit]
+root       12584       2   12584  0    1 Mar20 ?        00:00:00 [jfsSync]
+ubuntu     37039    3589   37039  0    8 Mar23 ?        00:00:14 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=3589
+ubuntu     37039    3589   37041  0    8 Mar23 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=3589
+ubuntu     37039    3589   37042  0    8 Mar23 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=3589
+ubuntu     37039    3589   37044  0    8 Mar23 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=3589
+ubuntu     37039    3589   37045  0    8 Mar23 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=3589
+ubuntu     37039    3589   37046  0    8 Mar23 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=3589
+ubuntu     37039    3589   37047  0    8 Mar23 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=3589
+ubuntu     37039    3589   37048  0    8 Mar23 ?        00:00:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=3589
+ubuntu     39363    3616   39363  0    1 Mar23 pts/1    00:00:00 /usr/bin/bash
+root       65170       1   65170  0    1 00:00 ?        00:00:00 /usr/sbin/cupsd -l
+root       65171       1   65171  0    3 00:00 ?        00:00:00 /usr/sbin/cups-browsed
+root       65171       1   65178  0    3 00:00 ?        00:00:00 /usr/sbin/cups-browsed
+root       65171       1   65179  0    3 00:00 ?        00:00:00 /usr/sbin/cups-browsed
+root       76221       2   76221  0    1 08:32 ?        00:00:00 [kworker/u256:2-ext4-rsv-conversion]
+root       77152       2   77152  0    1 08:46 ?        00:00:00 [kworker/0:1-events]
+root       77195       2   77195  0    1 08:46 ?        00:00:00 [kworker/u256:1-events_unbound]
+root       77202       2   77202  0    1 08:46 ?        00:00:00 [kworker/1:3-events]
+root       77212       2   77212  0    1 08:52 ?        00:00:00 [kworker/u256:0-ext4-rsv-conversion]
+root       77220       2   77220  0    1 08:53 ?        00:00:00 [kworker/0:0-events]
+root       77263       2   77263  0    1 08:54 ?        00:00:00 [kworker/1:0-events]
+root       78041       2   78041  0    1 08:55 ?        00:00:00 [kworker/u256:3]
+root       78453       2   78453  0    1 08:59 ?        00:00:00 [kworker/1:1]
+ubuntu     78604   39363   78604  0    1 09:00 pts/1    00:00:00 ps -eLf
