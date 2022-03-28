@@ -68,7 +68,7 @@ static int createAndTraverseBirthdays(void) {
 
     printk(KERN_INFO "Traversing birthday list\n");
 
-    birthday *birthdayPtr;
+    struct birthday *birthdayPtr;
 
     /**
      * iterate over list of given type.
@@ -86,7 +86,7 @@ static int createAndTraverseBirthdays(void) {
 static void removeAndFreeBirthdays(void) {
     printk(KERN_INFO "Removing module\n");
 
-    birthday *birthdayPtr, *next;
+    struct birthday *birthdayPtr, *next;
 
     /**
      * iterate over list of given type safe against removal of list entry.
