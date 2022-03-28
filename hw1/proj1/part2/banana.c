@@ -44,7 +44,7 @@ struct birthday {
  */
 static LIST_HEAD(LISTNAME);
 
-void createBirthdayNodeWith(const int &day, const int &month, const int &year) {
+void createBirthdayNodeWith(const int day, const int month, const int year) {
     struct birthday *const _b;
     _b = kzalloc(sizeof(*_b), GFP_KERNEL);
     _b->day = day;
@@ -65,8 +65,6 @@ static int createAndTraverseBirthdays(void) {
 
     printk(KERN_INFO "Traversing birthday list\n");
 
-    struct birthday *birthdayPtr;
-
     /**
      * iterate over list of given type.
      * @pos:	the type * to use as a loop cursor.
@@ -82,8 +80,6 @@ static int createAndTraverseBirthdays(void) {
 
 static void removeAndFreeBirthdays(void) {
     printk(KERN_INFO "Removing module\n");
-
-    struct birthday *birthdayPtr, *next;
 
     /**
      * iterate over list of given type safe against removal of list entry.
