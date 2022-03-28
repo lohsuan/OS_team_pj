@@ -59,7 +59,7 @@ void add_history(char *str, int *front, int *rear) {
     strcpy(history[*rear % 10], str);
     *rear = *rear + 1;
     if (*rear - *front > 10) {
-        *front++;
+        *front = *front + 1;
     }
 }
 
