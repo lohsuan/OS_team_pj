@@ -1,7 +1,7 @@
 /**
  * @file banana.c
  * @author Xanonymous
- * @brief
+ * @brief A simple module that does some operations related to the linked list when it is loaded and unload.
  * @version 0.1
  * @date 2022-03-28
  *
@@ -16,7 +16,7 @@
 #include <linux/slab.h>
 #include <linux/types.h>
 
-MODULE_DESCRIPTION("");
+MODULE_DESCRIPTION("A simple module that does some operations related to the linked list when it is loaded and unload.");
 MODULE_LICENSE("GPL");
 
 #define LISTNAME birthday_list
@@ -47,19 +47,53 @@ struct birthday {
  */
 static LIST_HEAD(LISTNAME);
 
+/**
+ * @brief Create a Birthday Node With objects
+ * The created node will be appended to the tail of the linked list.
+ * @param day
+ * @param month
+ * @param year
+ */
 void createBirthdayNodeWith(const int day, const int month, const int year) {
     struct birthday *_b;
 
+    // Apply & clear the kernel memory.
+    //
+    // The kzalloc() function is very similar to kmalloc(),
+    // the parameters and return values are the same,
+    // it can be said that the former is a variant of the latter,
+    // because kzalloc() is actually just an additional __GFP_ZERO flag.
     _b = kzalloc(sizeof(*_b), GFP_KERNEL);
-    
+
     _b->day = day;
     _b->month = month;
     _b->year = year;
 
+    /**
+     * Initialize a list_head structure.
+     * @list: list_head structure to be initialized.
+     *
+     * Initializes the list_head to point to itself.  If it is a list header,
+     * the result is an empty list.
+     */
     INIT_LIST_HEAD(&_b->list);
+
+    /**
+     * Add a new entry.
+     * @new: new entry to be added
+     * @head: list head to add it before
+     *
+     * Insert a new entry before the specified head.
+     * This is useful for implementing queues.
+     */
     list_add_tail(&_b->list, &LISTNAME);
 }
 
+/**
+ * @brief Create Birthday linked list, and traverse it.
+ *
+ * @return int
+ */
 static int createAndTraverseBirthdays(void) {
     struct birthday *birthdayPtr = NULL;
 
@@ -86,6 +120,10 @@ static int createAndTraverseBirthdays(void) {
     return 0;
 }
 
+/**
+ * @brief Traverse, and remove all nodes on the linked list.
+ *
+ */
 static void removeAndFreeBirthdays(void) {
     struct birthday *birthdayPtr = NULL;
     struct birthday *next = NULL;
