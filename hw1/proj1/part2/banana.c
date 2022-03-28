@@ -10,10 +10,10 @@
  */
 
 #include <linux/init.h>
-#include <linux/slab.h>
 #include <linux/kernel.h>
 #include <linux/list.h>
 #include <linux/module.h>
+#include <linux/slab.h>
 #include <linux/types.h>
 
 MODULE_DESCRIPTION("");
@@ -48,7 +48,7 @@ struct birthday {
 static LIST_HEAD(LISTNAME);
 
 void createBirthdayNodeWith(const int day, const int month, const int year) {
-    struct birthday * _b;
+    struct birthday *_b;
     _b = kzalloc(sizeof(*_b), GFP_KERNEL);
     _b->day = day;
     _b->month = month;
@@ -68,6 +68,8 @@ static int createAndTraverseBirthdays(void) {
 
     printk(KERN_INFO "Traversing birthday list\n");
 
+    birthday *birthdayPtr;
+
     /**
      * iterate over list of given type.
      * @pos:	the type * to use as a loop cursor.
@@ -83,6 +85,8 @@ static int createAndTraverseBirthdays(void) {
 
 static void removeAndFreeBirthdays(void) {
     printk(KERN_INFO "Removing module\n");
+
+    birthday *birthdayPtr, *next;
 
     /**
      * iterate over list of given type safe against removal of list entry.
