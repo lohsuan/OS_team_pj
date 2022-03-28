@@ -9,6 +9,7 @@
  *
  */
 
+#include <linux/init.h>
 #include <linux/kernel.h>
 #include <linux/list.h>
 #include <linux/module.h>
@@ -46,7 +47,7 @@ struct birthday {
 static LIST_HEAD(LISTNAME);
 
 void createBirthdayNodeWith(const int day, const int month, const int year) {
-    struct birthday *const _b;
+    struct birthday * _b;
     _b = kzalloc(sizeof(*_b), GFP_KERNEL);
     _b->day = day;
     _b->month = month;
