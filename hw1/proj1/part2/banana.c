@@ -10,6 +10,7 @@
  */
 
 #include <linux/init.h>
+#include <linux/slab.h>
 #include <linux/kernel.h>
 #include <linux/list.h>
 #include <linux/module.h>
