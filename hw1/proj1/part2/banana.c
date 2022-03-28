@@ -26,9 +26,12 @@ struct birthday {
     int month;
     int year;
     struct list_head list;
-}
+};
 
 /**
+ * @brief 
+ * 
+ */
  * @brief Construct a new list_head object.
  *
  * Which is equal to this:
