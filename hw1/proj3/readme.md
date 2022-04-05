@@ -36,3 +36,6 @@ Linux Kernel Modules for Listing Tasks.
 
 5. enter `dmesg`
 6. If you want to clear the kernel buffer, run `sudo dmesg -c`
+
+## Clean
+7. enter `make clean`
