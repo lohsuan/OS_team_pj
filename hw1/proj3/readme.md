@@ -26,16 +26,16 @@ Linux Kernel Modules for Listing Tasks.
 
 ### Insert ListTaskDFS module
 
-3. enter `sudo insmod ListTasksDFS.ko`
+7. enter `sudo insmod ListTasksDFS.ko`
 
 ### Remove ListTaskDFS module
 
-4. enter `sudo rmmod ListTasksDFS`
+8. enter `sudo rmmod ListTasksDFS`
 
 ### View kernel log buffer
 
-5. enter `dmesg`
-6. If you want to clear the kernel buffer, run `sudo dmesg -c`
+9. enter `dmesg`
+10. If you want to clear the kernel buffer, run `sudo dmesg -c`
 
 ## Clean
-7. enter `make clean`
+11. enter `make clean`
