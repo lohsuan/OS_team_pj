@@ -5,8 +5,11 @@ all: main
 main: ./SudokuValidator.c
 	gcc SudokuValidator.c -lpthread -lm -o main
 
-exec: 
-	./main
+valid: 
+	./main valid
+
+invalid: 
+	./main invalid
 
 clean:
 	rm ./main
