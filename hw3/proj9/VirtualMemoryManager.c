@@ -64,10 +64,7 @@ int findPage(int logicalAddr, char *PT, struct TLB *tlb, char *PM, int *OF, int 
 
     // Check if in PageTable
     if (TLBhit == false) {
-        if (PT[pageNum] != -1) {}
-
-        // if not in either read from disk
-        else {
+        if (PT[pageNum] == -1) {
             newFrame = readFromDisk(pageNum, PM, OF);
             PT[pageNum] = newFrame;
             (*pageFaults)++;
